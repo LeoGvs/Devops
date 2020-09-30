@@ -11,5 +11,8 @@ script:
   - yarn test --watchAll=false
   - yarn build
 
+install:
+  - yarn
+
 on:
   branch: master
